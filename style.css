@@ -1,0 +1,103 @@
+body {
+    font-family: "Libre Baskerville", serif !important;
+    background-color: #070E1B !important;
+    color: white !important;
+    overflow-x: hidden;
+}
+.bg-darkblue {
+    background-color: #070E1B;
+}
+.bg-yellow {
+    background-color: #FEC544 !important;
+}
+.text-yellow {
+    color: #FEC544 !important;
+}
+.navbar {
+    height: 70px;
+}
+.navbar img {
+    height: 42px;
+}
+.nav-item {
+    display: flex !important;
+    align-items: center !important;
+}
+.nav-item a {
+    color: white !important;
+    margin: auto 6px;
+    font-size: 16px;
+}
+.button {
+    background-color: #FEC544;
+    border: 0px;
+    padding: 8px 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.h-600 {
+    min-height: 600px;
+    margin-bottom: 2.5rem;
+}
+.fs-0 {
+    font-size: 3.5em;
+}
+.fs-7 {
+    font-size: 14px;
+    line-height: 10px;
+}
+footer a {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 1.5px;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.card {
+    background-color: #101523 !important;
+    color: white !important;
+    /* border: 1px solid #FEC544 !important; */
+    border-radius: 15px !important;
+}
+.about-img {
+    height: 200px;
+    width: auto;
+}
+.contact-img {
+    height: 500px;
+}
+.p-25 {
+    padding: 0.8rem;
+}
+.gap-25 {
+    gap: 0.8rem;
+}
+@media screen and (min-width: 480px) and (max-width: 1000px){
+    .contact-img {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contact-img {
+        height: 380px;
+    }
+    .about-img {
+        height: 200px;
+        width: auto;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .about-img {
+        height: 250px;
+        width: auto;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 990px) {
+    .about-img {
+        height: 150px;
+        width: auto;
+    }
+}
